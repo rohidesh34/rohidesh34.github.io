@@ -22,7 +22,7 @@ const routes = [
     }
   },
   {
-    path: '/agentic-ai',
+    path: '/blog/agentic-ai',
     name: 'agentic-ai',
     component: AgenticAI,
     meta: {
@@ -30,7 +30,7 @@ const routes = [
     }
   },
   {
-    path: '/apis-and-mcp',
+    path: '/blog/apis-and-mcp',
     name: 'apis-and-mcp',
     component: APIsAndMCP,
     meta: {
