@@ -14,6 +14,7 @@
         </router-link>
       </div>
     </div>
+  </div>
 </template>
 
 <script lang="ts">
