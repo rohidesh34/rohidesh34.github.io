@@ -8,8 +8,8 @@
 
     <!-- Blog tiles -->
     <div class="blog-tiles">
-      <div class="blog-tile" v-for="post in posts" :key="post.id">
-        <router-link :to="`/blog/${post.id}`" class="blog-tile-link">
+      <div class="blog-tile" v-for="post in posts" :key="post.path">
+        <router-link :to="`/blog/${post.path}`" class="blog-tile-link">
           <h2>{{ post.title }}</h2>
         </router-link>
       </div>
