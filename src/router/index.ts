@@ -43,4 +43,11 @@ const router = createRouter({
   routes
 })
 
+// Set page title dynamically
+router.afterEach((to) => {
+  if (to.meta && to.meta.title) {
+    document.title = to.meta.title as string
+  }
+})
+
 export default router
