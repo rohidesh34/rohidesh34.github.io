@@ -8,22 +8,34 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component: Home,
+    meta: {
+      title: 'Home | rohidesh.com'
+    }
   },
   {
     path: '/about',
     name: 'about',
-    component: About
+    component: About,
+    meta: {
+      title: 'About | rohidesh.com'
+    }
   },
   {
     path: '/agentic-ai',
     name: 'agentic-ai',
-    component: AgenticAI
+    component: AgenticAI,
+    meta: {
+      title: 'Agentic AI | rohidesh.com'
+    }
   },
   {
     path: '/apis-and-mcp',
     name: 'apis-and-mcp',
-    component: APIsAndMCP
+    component: APIsAndMCP,
+    meta: {
+      title: 'APIs and MCP | rohidesh.com'
+    }
   }
 ]
 const router = createRouter({
