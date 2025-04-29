@@ -25,8 +25,8 @@ export default {
       // Array of blog posts
       // In a real application, this data would likely come from an API
       posts: [
-        { id: 1, path: 'AgenticAI', title: 'Agentic AI' },
-        { id: 2, path: 'APIsAndMCP', title: 'APIs and MCP' },
+        { id: 1, path: 'agentic-ai', title: 'Agentic AI' },
+        { id: 2, path: 'apis-and-mcp', title: 'APIs and MCP' },
         // { id: 3, title: 'Glossary' },
         // Add more posts as needed
       ],
