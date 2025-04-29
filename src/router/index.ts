@@ -24,7 +24,7 @@ const routes = [
   {
     path: '/blog/agentic-ai',
     name: 'agentic-ai',
-    component: 'agentic-ai',
+    component: AgenticAI,
     meta: {
       title: 'Agentic AI | rohidesh.com'
     }
@@ -32,7 +32,7 @@ const routes = [
   {
     path: '/blog/apis-and-mcp',
     name: 'apis-and-mcp',
-    component: 'apis-and-mcp',
+    component: APIsAndMCP,
     meta: {
       title: 'APIs and MCP | rohidesh.com'
     }
