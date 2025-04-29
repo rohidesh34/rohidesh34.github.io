@@ -8,9 +8,9 @@
 
     <!-- Blog tiles -->
     <div class="blog-tiles">
-      <div class="blog-tile" v-for="post in posts" :key="post.path">
+      <div v-for="post in posts" :key="post.path">
         <router-link :to="`/blog/${post.path}`" class="blog-tile-link">
-          <h2>{{ post.title }}</h2>
+          <div class="blog-tile">{{ post.title }}</div>
         </router-link>
       </div>
     </div>
@@ -62,21 +62,27 @@ export default {
 
 /* Blog Tiles Container */
 .blog-tiles {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  width: 100%;
-  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 /* Individual Tile */
 .blog-tile {
+  display: flex;
+  width: 200px;
+  height: 150px;
+  background: #f2f2f2;
   background-color: #f8f9fa;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: center;
+  justify-content: center;
 }
 
 .blog-tile:hover {
