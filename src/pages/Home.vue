@@ -8,8 +8,8 @@
 
     <!-- Blog tiles -->
     <div class="blog-tiles">
-      <div v-for="post in posts" :key="post.path">
-        <router-link :to="`/blog/${post.path}`" class="blog-tile-link">
+      <div v-for="post in posts" :key="post.id">
+        <router-link :to="`/blog/${post.id}`" class="blog-tile-link">
           <div class="blog-tile">
             <h2>{{ post.title }}</h2>
           </div>
@@ -27,9 +27,9 @@ export default {
       // Array of blog posts
       // In a real application, this data would likely come from an API
       posts: [
-        { id: 1, path: 'agentic-ai', title: 'Agentic AI' },
-        { id: 2, path: 'apis-and-mcp', title: 'APIs and MCP' },
-        // { id: 3, title: 'Glossary' },
+        { id: 'agentic-ai', title: 'Agentic AI' },
+        { id: 'apis-and-mcp', title: 'APIs and MCP' },
+        { id: 'glossary', title: 'Glossary' },
         // Add more posts as needed
       ],
     };

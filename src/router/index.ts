@@ -3,6 +3,8 @@ import Home from '@/pages/Home.vue'
 import About from '@/pages/About.vue'
 import AgenticAI from '@/pages/AgenticAI.vue'
 import APIsAndMCP from '@/pages/APIsAndMCP.vue'
+import Glossary from '@/pages/Glossary.vue'
+import BlogPost from '@/pages/BlogPost.vue'
 
 const routes = [
   {
@@ -22,6 +24,18 @@ const routes = [
     }
   },
   {
+    path: '/blog/glossary',
+    name: 'glossary',
+    component: Glossary,
+    meta: {
+      title: 'Glossary | rohidesh.com'
+    }
+  },
+  {
+    path: '/blog/:id',
+    component: BlogPost
+  },
+  {
     path: '/blog/agentic-ai',
     name: 'agentic-ai',
     component: AgenticAI,
@@ -36,7 +50,7 @@ const routes = [
     meta: {
       title: 'APIs and MCP | rohidesh.com'
     }
-  }
+  },
 ]
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
