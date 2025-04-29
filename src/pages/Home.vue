@@ -10,7 +10,9 @@
     <div class="blog-tiles">
       <div v-for="post in posts" :key="post.path">
         <router-link :to="`/blog/${post.path}`" class="blog-tile-link">
-          <div class="blog-tile">{{ post.title }}</div>
+          <div class="blog-tile">
+            <h2>{{ post.title }}</h2>
+          </div>
         </router-link>
       </div>
     </div>
