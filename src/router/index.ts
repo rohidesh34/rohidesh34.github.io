@@ -4,7 +4,7 @@ import About from '@/pages/About.vue'
 import AgenticAI from '@/pages/AgenticAI.vue'
 import APIsAndMCP from '@/pages/APIsAndMCP.vue'
 import Glossary from '@/pages/Glossary.vue'
-import BlogPost from '@/pages/BlogPost.vue'
+import BlogPost from '../pages/BlogPost.vue'
 
 const routes = [
   {
