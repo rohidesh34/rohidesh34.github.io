@@ -1,4 +1,18 @@
 <template>
+    <div>
+        <h1>BlogPost</h1>
+        <p>This is the content of the first blog post.</p>
+        <router-link to="/">← Back to Home</router-link>
+    </div>
+</template>
+
+<script lang="ts">
+export default {
+    name: 'BlogPost',
+}
+</script>
+
+<!-- <template>
     <div v-if="blog">
         <h1>{{ blog.title }}</h1>
         <div v-html="blog.content"></div>
@@ -27,4 +41,4 @@ const blogMap: Record<string, { title: string; content: string }> = {
 }
 
 const blog = blogMap[blogId]
-</script>
+</script> -->

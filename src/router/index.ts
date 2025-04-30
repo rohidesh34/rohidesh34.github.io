@@ -4,7 +4,6 @@ import About from '@/pages/About.vue'
 import AgenticAI from '@/pages/AgenticAI.vue'
 import APIsAndMCP from '@/pages/APIsAndMCP.vue'
 import Glossary from '@/pages/Glossary.vue'
-import BlogPost from '../pages/BlogPost.vue'
 
 const routes = [
   {
@@ -31,10 +30,10 @@ const routes = [
       title: 'Glossary | rohidesh.com'
     }
   },
-  {
-    path: '/blog/:id',
-    component: BlogPost
-  },
+  // {
+  //   path: '/blog/:id',
+  //   component: BlogPost
+  // },
   {
     path: '/blog/agentic-ai',
     name: 'agentic-ai',
