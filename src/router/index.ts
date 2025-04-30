@@ -3,7 +3,9 @@ import Home from '@/pages/Home.vue'
 import About from '@/pages/About.vue'
 import AgenticAI from '@/pages/AgenticAI.vue'
 import APIsAndMCP from '@/pages/APIsAndMCP.vue'
+import AIPatterns from '@/pages/AIPatterns.vue'
 import Glossary from '@/pages/Glossary.vue'
+import BlogPosts from '@/pages/BlogPosts.vue'
 
 const routes = [
   {
@@ -30,10 +32,6 @@ const routes = [
       title: 'Glossary | rohidesh.com'
     }
   },
-  // {
-  //   path: '/blog/:id',
-  //   component: BlogPost
-  // },
   {
     path: '/blog/agentic-ai',
     name: 'agentic-ai',
@@ -48,6 +46,14 @@ const routes = [
     component: APIsAndMCP,
     meta: {
       title: 'APIs and MCP | rohidesh.com'
+    }
+  },
+  {
+    path: '/blog/ai-patterns',
+    name: 'ai-patterns',
+    component: AIPatterns,
+    meta: {
+      title: 'AI Patterns | rohidesh.com'
     }
   },
 ]

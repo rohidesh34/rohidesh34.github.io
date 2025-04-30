@@ -29,6 +29,7 @@ export default {
       posts: [
         { id: 'agentic-ai', title: 'Agentic AI' },
         { id: 'apis-and-mcp', title: 'APIs and MCP' },
+        { id: 'ai-patterns', title: 'AI Patterns' },
         { id: 'glossary', title: 'Glossary' },
         // Add more posts as needed
       ],
