@@ -6,7 +6,7 @@ tags: [azure]
 permalink: /azure-fundamentals.html
 ---
 # Introduction
-This is a summary of the core concepts and services of Azure cloud.
+This is a summary of the core concepts and services in Azure cloud.
 # Azure Integration Services
 tbf
 ## Azure Functions
