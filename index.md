@@ -4,13 +4,9 @@ title: Home
 ---
 
 # Home
-
+_Writing brings clarity._
+An attempt to organize and communicate my thoughts around some key learnings.
 ## Posts
-
-<ul>
 {% for post in site.posts %}
-  <li>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  </li>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 {% endfor %}
-</ul>
