@@ -5,6 +5,7 @@ title: Home
 
 # Home
 _Writing brings clarity._
+
 An attempt to organize and communicate my thoughts around some key learnings.
 ## Posts
 {% for post in site.posts %}
