@@ -5,7 +5,7 @@ title: Home
 
 # home
 
-## Blog Posts
+## posts
 
 <ul>
 {% for post in site.posts %}
