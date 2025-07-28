@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# rohidesh.com
+# home
 
 ## Blog Posts
 
