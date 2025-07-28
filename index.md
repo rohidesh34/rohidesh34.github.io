@@ -1,4 +1,3 @@
-<!-- filepath: /Users/rohidesh/personal/writings/website/rohidesh34.github.io/index.md -->
 ---
 layout: default
 title: Home
