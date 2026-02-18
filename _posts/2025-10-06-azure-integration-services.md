@@ -21,7 +21,7 @@ This is a summary of the core concepts and services in Azure Integration Service
 ## Trigger, Action, and Control
 ![overview](image.png)
 - A trigger is an event that happens when a specific condition is met e.g. timer, HTTP request
-- An action is n operation that executes a specific task in the workflow
+- An action is an operation that executes a specific task in the workflow
 - Control actions are special actions that provide workflow control constructs:
     - Condition
     - Switch
